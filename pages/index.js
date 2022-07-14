@@ -55,7 +55,7 @@ export default function Home() {
                           borderRadius="full"
                           overflow="hidden"
                       >
-                        <Image src='/simon-profile.jpg'></Image>
+                        <Image alt={'simon profile image'} src='/simon-profile.jpg'/>
                       </Box>
                   </Box>
               </Box>
@@ -263,7 +263,7 @@ export default function Home() {
                       colorScheme={useColorModeValue('purple', 'teal')}
                       leftIcon={<EmailIcon/>}
                   >
-                      Reach out and let's build something together!
+                      Reach out and let&apos;s build something together!
                   </Button>
               </Link>
           </ScaleFade>
