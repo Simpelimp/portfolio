@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <Box position='relative' overflow='hidden'>
       <Box position='absolute' width='100vw' height='100vh' opacity={ useColorModeValue('0.3', '0.1')}>
-        <Lottie animationData={backgroundLottie} loop={true}></Lottie>
+        {/*<Lottie animationData={backgroundLottie} loop={true}></Lottie>*/}
       </Box>
       <Box
         css={{ backdropFilter: useColorModeValue('grayscale(100%) blur(0px)', 'blur(20px)') }}

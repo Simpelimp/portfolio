@@ -18,12 +18,12 @@ import {
     Highlight,
     Collapse,
     Tag,
-    Image
+    Image,
+    Link
 } from "@chakra-ui/react";
 import {ChevronRightIcon, SunIcon, MoonIcon, ArrowDownIcon, ArrowUpIcon, EmailIcon} from '@chakra-ui/icons'
 import NextLink from 'next/link'
 import {useEffect, useState} from "react";
-import Link from "next/link";
 import {IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
 import ExpandableBox from "../components/expandable-box";
 
@@ -79,23 +79,53 @@ export default function Home() {
           <ScaleFade initialScale={0.9} delay={0.2} in={true}>
               <Box mb={6}>
                   <Heading as="h3" variant="section-title">
-                      Work
+                      Startup work
                   </Heading>
                   <ExpandableBox title={<Text as='b'> Chimer - <Tag size={'md'} variant='subtle' colorScheme={useColorModeValue('purple', 'teal')}>In progress</Tag></Text>}>
-                      <Text>More text about chimer here</Text>
+                      <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
+                          Fullstack Engineer
+                      </Text>
+                      <Text textAlign='left'>
+                        Chimer lets your sales team meet, activate and grow your most valuable customers, on your website and inside your products. <Link href={'https://www.chimer.com/'} isExternal>Chimer.com</Link>
+                      </Text>
                   </ExpandableBox>
                   <ExpandableBox title={<Text as='b'> Adfenix - <Tag size={'md'} variant='subtle' colorScheme='green'>Finished</Tag></Text>}>
-                      <Text>More text about chimer here</Text>
+                      <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
+                          Team Lead & Frontend Engineer
+                      </Text>
+                      <Text textAlign='left'>
+                          Marketing professionals for residential real estate brands use the Adfenix platform to create, manage and scale recurring marketing activities for brand and agents. <Link textAlign='right' href={'https://www.adfenix.com/'} isExternal>Adfenix.com</Link>
+                      </Text>
                   </ExpandableBox>
                   <ExpandableBox title={<Text as='b'> Quedro - <Tag size={'md'} variant='subtle' colorScheme='green'>Finished</Tag></Text>}>
-                      <Text>More text about chimer here</Text>
+                      <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
+                          Tech lead & Frontend Engineer
+                      </Text>
+                      <Text textAlign='left'>
+                          Worked on developing the Quedro platform, a CRM made for the real estate industry. Primarily worked on the web app written in Angular 2+(keeping up to date with latest Angular version), and also their React Native mobile app.
+                      </Text>
+                      <Text>Quedro later got acquired by Adfenix. <Link href={'https://www.quedro.com/'} isExternal>Quedro.com</Link></Text>
                   </ExpandableBox>
                   <ExpandableBox title={<Text as='b'> Whalebone - <Tag size={'md'} variant='subtle' colorScheme='green'>Finished</Tag></Text>}>
-                      <Text>More text about chimer here</Text>
+                      <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
+                          Fullstack Engineer
+                      </Text>
+                      <Text textAlign='left'>
+                          Whalebone makes tools to amplify and humanize virtual events. Founded in 2017, based in Sweden.
+                      </Text>
+                      <Text>
+                          Whalebone got acquired by Bizzabo.
+                      </Text>
                   </ExpandableBox>
-                  <ExpandableBox title={<Text as='b'> NetRelations - <Tag size={'md'} variant='subtle' colorScheme='green'>Finished</Tag></Text>}>
-                      <Text>More text about chimer here</Text>
-                  </ExpandableBox>
+                  {/*<ExpandableBox title={<Text as='b'> NetRelations - <Tag size={'md'} variant='subtle' colorScheme='green'>Finished</Tag></Text>}>*/}
+                  {/*    <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>*/}
+                  {/*        Fullstack Engineer.*/}
+                  {/*    </Text>*/}
+                  {/*    <Text textAlign='left'>*/}
+                  {/*        Primary focus on Frontend. Worked with Microsoft's SharePoint platform.*/}
+                  {/*        Did everything from new feature development to customer presentations/demos. NetRelations later got acquired by TietoEvry.*/}
+                  {/*    </Text>*/}
+                  {/*</ExpandableBox>*/}
               </Box>
           </ScaleFade>
 
@@ -227,14 +257,17 @@ export default function Home() {
                   </SimpleGrid>
               </Box>
 
-              <Button
-                  width='100%'
-                  variant="ghost"
-                  colorScheme={useColorModeValue('purple', 'teal')}
-                  leftIcon={<EmailIcon/>}
-              >
-                  Reach out and let's build something together!
-              </Button>
+              <Link href='mailto:simon.inges@outlook.com' target="_blank">
+                  <Button
+                      width='100%'
+                      variant="ghost"
+                      mb={18}
+                      colorScheme={useColorModeValue('purple', 'teal')}
+                      leftIcon={<EmailIcon/>}
+                  >
+                      Reach out and let's build something together!
+                  </Button>
+              </Link>
           </ScaleFade>
       </Container>
 

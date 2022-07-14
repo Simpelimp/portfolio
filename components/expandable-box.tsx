@@ -14,11 +14,11 @@ const ExpandableBox = (props: Props) => {
       borderRadius="lg"
       mb={4}
       p={4}
-      textAlign="center"
+      textAlign="left"
       bg={useColorModeValue('blackAlpha.50', 'whiteAlpha.200')}
       css={{ backdropFilter: 'blur(10px)' }}
     >
-      <Box display='flex' justifyContent='space-between' onClick={() => toggleBox(!open)}>
+      <Box as='button' width='100%' display='flex' justifyContent='space-between' onClick={() => toggleBox(!open)}>
         {props.title}
         { open ? <MinusIcon/> : <PlusSquareIcon/> }
       </Box>
