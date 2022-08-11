@@ -1,6 +1,6 @@
 import {Box, IconButton, useColorMode, useColorModeValue} from "@chakra-ui/react";
 import {MoonIcon, SunIcon} from "@chakra-ui/icons";
-import backgroundLottie from "../assets/lotties/background-2.json";
+import backgroundLottie from "../assets/lotties/background-1.json";
 import Lottie from "lottie-react";
 import {AnimatePresence, motion} from "framer-motion";
 
