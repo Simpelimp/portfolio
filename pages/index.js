@@ -135,8 +135,20 @@ export default function Home() {
                         Projects
                     </Heading>
                     <ExpandableBox title={<Text as='b'>Dashboard Generator - <Tag size={'md'} variant='subtle' colorScheme={useColorModeValue('purple', 'teal')}>In progress</Tag></Text>}>
+                        <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
+                            Solo project
+                        </Text>
+                        <Text textAlign='left'>
+                            A react library that simplifies the creation of customisable dashboards.
+                        </Text>
                     </ExpandableBox>
                     <ExpandableBox title={<Text as='b'>Gamify - <Tag size={'md'} variant='subtle' colorScheme='gray'>On ice</Tag></Text>}>
+                        <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
+                            Solo project
+                        </Text>
+                        <Text textAlign='left'>
+                            A B2B app that enables the creation of competitions to increase employee performance and motivation.
+                        </Text>
                     </ExpandableBox>
                 </Box>
             </ScaleFade>

@@ -1,7 +1,8 @@
 import {Box, IconButton, useColorMode, useColorModeValue} from "@chakra-ui/react";
 import {MoonIcon, SunIcon} from "@chakra-ui/icons";
-import backgroundLottie from "../assets/lotties/background-1.json";
+import backgroundLottie from "../assets/lotties/background-2.json";
 import Lottie from "lottie-react";
+import {AnimatePresence, motion} from "framer-motion";
 
 const Layout = ({ children }) => {
   const { toggleColorMode } = useColorMode()
@@ -19,12 +20,23 @@ const Layout = ({ children }) => {
           justifyContent='flex-end'
           padding={4}
         >
-          <IconButton
-            aria-label="Toggle theme"
-            colorScheme={useColorModeValue('purple', 'teal')}
-            icon={useColorModeValue(<MoonIcon/>, <SunIcon/>)}
-            onClick={toggleColorMode}
-          />
+          <AnimatePresence exitBeforeEnter initial={false}>
+            <motion.div
+              style={{ display: 'inline-block' }}
+              key={useColorModeValue('purple', 'teal')}
+              initial={{ x: -10, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              exit={{ x: 10, opacity: 0 }}
+              transition={{ duration: 0.2 }}
+            >
+              <IconButton
+                aria-label="Toggle theme"
+                colorScheme={useColorModeValue('purple', 'teal')}
+                icon={useColorModeValue(<MoonIcon/>, <SunIcon/>)}
+                onClick={toggleColorMode}
+              />
+            </motion.div>
+          </AnimatePresence>
         </Box>
         {children}
       </Box>
