@@ -79,17 +79,25 @@ export default function Home() {
           <ScaleFade initialScale={0.9} delay={0.2} in={true}>
               <Box mb={6}>
                   <Heading as="h3" variant="section-title">
+                      Freelance work
+                  </Heading>
+                  <ExpandableBox title={<Text as='b'> TV4 - <Tag size={'md'} variant='subtle' colorScheme={useColorModeValue('purple', 'teal')}>In progress</Tag></Text>}>
+                      <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
+                          Fullstack Engineer
+                      </Text>
+                      <Text textAlign='left'>
+                          TV4 is a swedish news site. I'm primarily helping with infrastructure stability and code quality work for their Graphql, Web app and react native app. <Link textAlign='right' href={'https://www.tv4.se/'} isExternal>tv4.se</Link>
+                      </Text>
+                  </ExpandableBox>
+              </Box>
+          </ScaleFade>
+
+          <ScaleFade initialScale={0.9} delay={0.2} in={true}>
+              <Box mb={6}>
+                  <Heading as="h3" variant="section-title">
                       Startup work
                   </Heading>
-                  {/*<ExpandableBox title={<Text as='b'> Chimer - <Tag size={'md'} variant='subtle' colorScheme={useColorModeValue('purple', 'teal')}>In progress</Tag></Text>}>*/}
-                  {/*    <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>*/}
-                  {/*        Fullstack Engineer*/}
-                  {/*    </Text>*/}
-                  {/*    <Text textAlign='left'>*/}
-                  {/*      Chimer lets your sales team meet, activate and grow your most valuable customers, on your website and inside your products. <Link href={'https://www.chimer.com/'} isExternal>Chimer.com</Link>*/}
-                  {/*    </Text>*/}
-                  {/*</ExpandableBox>*/}
-                  <ExpandableBox title={<Text as='b'> Adfenix - <Tag size={'md'} variant='subtle' colorScheme={useColorModeValue('purple', 'teal')}>In progress</Tag></Text>}>
+                  <ExpandableBox title={<Text as='b'> Adfenix - <Tag size={'md'} variant='subtle' colorScheme={'green'}>Finished</Tag></Text>}>
                       <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
                           Team Lead & Frontend Engineer
                       </Text>
