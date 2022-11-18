@@ -1,7 +1,5 @@
 import {Box, IconButton, useColorMode, useColorModeValue} from "@chakra-ui/react";
 import {MoonIcon, SunIcon} from "@chakra-ui/icons";
-import backgroundLottie from "../assets/lotties/background-1.json";
-import Lottie from "lottie-react";
 import {AnimatePresence, motion} from "framer-motion";
 
 const Layout = ({ children }) => {
@@ -9,7 +7,6 @@ const Layout = ({ children }) => {
   return (
     <Box position='relative' overflow='hidden'>
       <Box position='absolute' width='100vw' height='100vh' opacity={ useColorModeValue('0.3', '0.1')}>
-        {/*<Lottie animationData={backgroundLottie} loop={true}></Lottie>*/}
       </Box>
       <Box
         css={{ backdropFilter: useColorModeValue('grayscale(100%) blur(0px)', 'blur(20px)') }}
