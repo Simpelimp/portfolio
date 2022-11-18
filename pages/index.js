@@ -86,7 +86,7 @@ export default function Home() {
                           Fullstack Engineer
                       </Text>
                       <Text textAlign='left'>
-                          TV4 is a swedish news site. I'm primarily helping with infrastructure stability and code quality work for their Graphql, Web app and react native app. <Link textAlign='right' href={'https://www.tv4.se/'} isExternal>tv4.se</Link>
+                          TV4 is a swedish news site. I&apos;m primarily helping with infrastructure stability and code quality work for their Graphql, Web app and react native app. <Link textAlign='right' href={'https://www.tv4.se/'} isExternal>tv4.se</Link>
                       </Text>
                   </ExpandableBox>
               </Box>
