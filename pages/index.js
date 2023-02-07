@@ -142,20 +142,21 @@ export default function Home() {
                     <Heading as="h3" variant="section-title">
                         Projects
                     </Heading>
-                    <ExpandableBox title={<Text as='b'>Dashboard Generator - <Tag size={'md'} variant='subtle' colorScheme={useColorModeValue('purple', 'teal')}>In progress</Tag></Text>}>
+                    <ExpandableBox title={<Text as='b'>Reactuly - <Tag size={'md'} variant='subtle' colorScheme={useColorModeValue('purple', 'teal')}>In progress</Tag></Text>}>
+                        <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
+                            Solo project
+                        </Text>
+                        <Text textAlign='left'>
+                            A react native app where users can answer polls and get unique distictions and insights. <br></br>
+                            <Link href="https://reactuly.com" target="_blank">www.reactuly.com</Link>
+                        </Text>
+                    </ExpandableBox>
+                    <ExpandableBox title={<Text as='b'>Dashboard Generator - <Tag size={'md'} variant='subtle' colorScheme={'gray'}>Paused</Tag></Text>}>
                         <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
                             Solo project
                         </Text>
                         <Text textAlign='left'>
                             A react library that simplifies the creation of customisable dashboards.
-                        </Text>
-                    </ExpandableBox>
-                    <ExpandableBox title={<Text as='b'>Gamify - <Tag size={'md'} variant='subtle' colorScheme='gray'>On ice</Tag></Text>}>
-                        <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
-                            Solo project
-                        </Text>
-                        <Text textAlign='left'>
-                            A B2B app that enables the creation of competitions to increase employee performance and motivation.
                         </Text>
                     </ExpandableBox>
                 </Box>
