@@ -37,7 +37,7 @@ export default function Home() {
                       <Heading as="h2" variant="page-title">
                           Simon Inges Ilrot
                       </Heading>
-                      <p>Startup Software Engineer</p>
+                      <p>Experienced Software Engineer</p>
                   </Box>
                   <Box
                       flexShrink={0}
@@ -67,10 +67,20 @@ export default function Home() {
                       Bio
                   </Heading>
                   <Box>
-                      <Text>
-                          Fullstack Software Engineer. I primarily work with early stage SaaS startups.
+                      <Text mb={4}>
+                          {/* Fullstack Software Engineer. I primarily work with early stage SaaS startups.
                           I love building amazing products from the ground up.
-                          I also love star wars, bad puns and cold beer 🙂
+                          I also love star wars, bad puns and cold beer 🙂 */}
+Hey there, I'm Simon, a freelance software engineer who loves building apps, systems, and websites. I've been doing this for 7 years now and have developed a keen eye for detail to ensure that my work is top-notch.
+                        </Text>
+                        <Text mb={4}>
+Aside from my love of programming, I also have a soft spot for bad puns and anything Star Wars-related. I'm a huge fan and love nothing more than immersing myself in that world.
+                        </Text>
+                        {/* <Text mb={4}>
+I understand how important it is to deliver functional, reliable, and user-friendly solutions that also look great. That's why I take the time to get to know you and your unique requirements to ensure your project is completed on time, within budget, and to your satisfaction.
+                        </Text> */}
+                        <Text mb={4}>
+So, if you're looking for a freelance software engineer who is passionate, experienced, and loves bad puns and Star Wars, then I'm your guy. Let's chat and see how we can work together to bring your vision to life!
                       </Text>
                   </Box>
               </Box>
@@ -83,7 +93,7 @@ export default function Home() {
                   </Heading>
                   <ExpandableBox title={<Text as='b'> TV4 - <Tag size={'md'} variant='subtle' colorScheme={useColorModeValue('purple', 'teal')}>In progress</Tag></Text>}>
                       <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
-                          Fullstack Engineer
+                          Product Lead & Fullstack Engineer
                       </Text>
                       <Text textAlign='left'>
                           TV4 is a swedish news site. I&apos;m primarily helping with infrastructure stability and code quality work for their Graphql, Web app and react native app. <Link textAlign='right' href={'https://www.tv4.se/'} isExternal>tv4.se</Link>
