@@ -71,16 +71,22 @@ export default function Home() {
                           {/* Fullstack Software Engineer. I primarily work with early stage SaaS startups.
                           I love building amazing products from the ground up.
                           I also love star wars, bad puns and cold beer 🙂 */}
-Hey there, I&apos;m Simon, a freelance software engineer who loves building apps, systems, and websites. I&apos;ve been doing this for 7 years now and have developed a keen eye for detail to ensure that my work is top-notch.
+{/* Hey there, I&apos;m Simon, a freelance software engineer who loves building apps, systems, and websites. I&apos;ve been doing this for 7 years now and have developed a keen eye for detail to ensure that my work is top-notch.
                         </Text>
                         <Text mb={4}>
 Aside from my love of programming, I also have a soft spot for bad puns and anything Star Wars-related. I&apos;m a huge fan and love nothing more than immersing myself in that world.
                         </Text>
-                        {/* <Text mb={4}>
-I understand how important it is to deliver functional, reliable, and user-friendly solutions that also look great. That&apos;s why I take the time to get to know you and your unique requirements to ensure your project is completed on time, within budget, and to your satisfaction.
-                        </Text> */}
                         <Text mb={4}>
 So, if you&apos;re looking for a freelance software engineer who is passionate, experienced, and loves bad puns and Star Wars, then I&apos;m your guy. Let&apos;s chat and see how we can work together to bring your vision to life!
+                      </Text> */}
+
+                      Hi there! My name is Simon, and I'm a freelance software engineer with 7 years of experience building apps, systems, and websites. I'm well-versed in a variety of programming languages, frameworks, and technologies, and I love nothing more than solving complex technical challenges.
+                      </Text>
+                      <Text mb={4}>
+Whether you're looking for a full-stack web app, a custom mobile app, or a system that integrates with your existing software, I have the technical expertise to bring your vision to life. I'm also a firm believer in continuous learning, so I'm always staying up-to-date with the latest technologies and trends in the software engineering world.
+</Text>
+                      <Text mb={4}>
+If you're looking for a dedicated and knowledgeable software engineer to help your business thrive, then I'm your guy. Let's work together and create something amazing.
                       </Text>
                   </Box>
               </Box>
