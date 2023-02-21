@@ -80,13 +80,13 @@ Aside from my love of programming, I also have a soft spot for bad puns and anyt
 So, if you&apos;re looking for a freelance software engineer who is passionate, experienced, and loves bad puns and Star Wars, then I&apos;m your guy. Let&apos;s chat and see how we can work together to bring your vision to life!
                       </Text> */}
 
-                      Hi there! My name is Simon, and I'm a freelance software engineer with 7 years of experience building apps, systems, and websites. I'm well-versed in a variety of programming languages, frameworks, and technologies, and I love nothing more than solving complex technical challenges.
+                      Hi there! My name is Simon, and I&apos;m a freelance software engineer with 7 years of experience building apps, systems, and websites. I&apos;m well-versed in a variety of programming languages, frameworks, and technologies, and I love nothing more than solving complex technical challenges.
                       </Text>
                       <Text mb={4}>
-Whether you're looking for a full-stack web app, a custom mobile app, or a system that integrates with your existing software, I have the technical expertise to bring your vision to life. I'm also a firm believer in continuous learning, so I'm always staying up-to-date with the latest technologies and trends in the software engineering world.
+Whether you&apos;re looking for a full-stack web app, a custom mobile app, or a system that integrates with your existing software, I have the technical expertise to bring your vision to life. I&apos;m also a firm believer in continuous learning, so I&apos;m always staying up-to-date with the latest technologies and trends in the software engineering world.
 </Text>
                       <Text mb={4}>
-If you're looking for a dedicated and knowledgeable software engineer to help your business thrive, then I'm your guy. Let's work together and create something amazing.
+If you&apos;re looking for a dedicated and knowledgeable software engineer to help your business thrive, then I&apos;m your guy. Let&apos;s work together and create something amazing.
                       </Text>
                   </Box>
               </Box>
