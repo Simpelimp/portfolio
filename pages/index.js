@@ -71,16 +71,16 @@ export default function Home() {
                           {/* Fullstack Software Engineer. I primarily work with early stage SaaS startups.
                           I love building amazing products from the ground up.
                           I also love star wars, bad puns and cold beer 🙂 */}
-Hey there, I'm Simon, a freelance software engineer who loves building apps, systems, and websites. I've been doing this for 7 years now and have developed a keen eye for detail to ensure that my work is top-notch.
+Hey there, I&apos;m Simon, a freelance software engineer who loves building apps, systems, and websites. I&apos;ve been doing this for 7 years now and have developed a keen eye for detail to ensure that my work is top-notch.
                         </Text>
                         <Text mb={4}>
-Aside from my love of programming, I also have a soft spot for bad puns and anything Star Wars-related. I'm a huge fan and love nothing more than immersing myself in that world.
+Aside from my love of programming, I also have a soft spot for bad puns and anything Star Wars-related. I&apos;m a huge fan and love nothing more than immersing myself in that world.
                         </Text>
                         {/* <Text mb={4}>
-I understand how important it is to deliver functional, reliable, and user-friendly solutions that also look great. That's why I take the time to get to know you and your unique requirements to ensure your project is completed on time, within budget, and to your satisfaction.
+I understand how important it is to deliver functional, reliable, and user-friendly solutions that also look great. That&apos;s why I take the time to get to know you and your unique requirements to ensure your project is completed on time, within budget, and to your satisfaction.
                         </Text> */}
                         <Text mb={4}>
-So, if you're looking for a freelance software engineer who is passionate, experienced, and loves bad puns and Star Wars, then I'm your guy. Let's chat and see how we can work together to bring your vision to life!
+So, if you&apos;re looking for a freelance software engineer who is passionate, experienced, and loves bad puns and Star Wars, then I&apos;m your guy. Let&apos;s chat and see how we can work together to bring your vision to life!
                       </Text>
                   </Box>
               </Box>
