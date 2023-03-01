@@ -158,6 +158,15 @@ If you&apos;re looking for a dedicated and knowledgeable software engineer to he
                     <Heading as="h3" variant="section-title">
                         Projects
                     </Heading>
+                    <ExpandableBox title={<Text as='b'>Startup Generator - <Tag size={'md'} variant='subtle' colorScheme={'green'}>MVP Finished</Tag></Text>}>
+                        <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
+                            Solo project
+                        </Text>
+                        <Text textAlign='left'>
+                            A web app using the OpenAI API to generate everything you need for your startup idea. Simply enter a vague description of what you want to do, and the app will generate your elevator pitch, target audience, go to market strategy and SEO tips. <br></br>
+                            <Link href="https://startupgenerator.io" target="_blank">www.startupgenerator.io</Link>
+                        </Text>
+                    </ExpandableBox>
                     <ExpandableBox title={<Text as='b'>Reactuly - <Tag size={'md'} variant='subtle' colorScheme={useColorModeValue('purple', 'teal')}>In progress</Tag></Text>}>
                         <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
                             Solo project
