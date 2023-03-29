@@ -68,17 +68,6 @@ export default function Home() {
                   </Heading>
                   <Box>
                       <Text mb={4}>
-                          {/* Fullstack Software Engineer. I primarily work with early stage SaaS startups.
-                          I love building amazing products from the ground up.
-                          I also love star wars, bad puns and cold beer 🙂 */}
-{/* Hey there, I&apos;m Simon, a freelance software engineer who loves building apps, systems, and websites. I&apos;ve been doing this for 7 years now and have developed a keen eye for detail to ensure that my work is top-notch.
-                        </Text>
-                        <Text mb={4}>
-Aside from my love of programming, I also have a soft spot for bad puns and anything Star Wars-related. I&apos;m a huge fan and love nothing more than immersing myself in that world.
-                        </Text>
-                        <Text mb={4}>
-So, if you&apos;re looking for a freelance software engineer who is passionate, experienced, and loves bad puns and Star Wars, then I&apos;m your guy. Let&apos;s chat and see how we can work together to bring your vision to life!
-                      </Text> */}
 
                       Hi there! My name is Simon, and I&apos;m a freelance software engineer with 7 years of experience building apps, systems, and websites. I&apos;m well-versed in a variety of programming languages, frameworks, and technologies, and I love nothing more than solving complex technical challenges.
                       </Text>
@@ -97,12 +86,20 @@ If you&apos;re looking for a dedicated and knowledgeable software engineer to he
                   <Heading as="h3" variant="section-title">
                       Freelance work
                   </Heading>
-                  <ExpandableBox title={<Text as='b'> TV4 - <Tag size={'md'} variant='subtle' colorScheme={useColorModeValue('purple', 'teal')}>In progress</Tag></Text>}>
+                  <ExpandableBox title={<Text as='b'> Axfood - <Tag size={'md'} variant='subtle' colorScheme={useColorModeValue('purple', 'teal')}>In progress</Tag></Text>}>
+                      <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
+                          Fullstack Engineer
+                      </Text>
+                      <Text textAlign='left'>
+                          Developing the web(React & Next) and mobile app(React native) for one of their brands, Hemköp. <Link textAlign='right' href={'https://www.axfood.se/'} isExternal>axfood.se</Link>
+                      </Text>
+                  </ExpandableBox>
+                  <ExpandableBox title={<Text as='b'> TV4 - <Tag size={'md'} variant='subtle' colorScheme={'green'}>Finished</Tag></Text>}>
                       <Text fontWeight='bold' textAlign='left' mt={4} mb={2}>
                           Product Lead & Fullstack Engineer
                       </Text>
                       <Text textAlign='left'>
-                          TV4 is a swedish news site. I&apos;m primarily helping with infrastructure stability and code quality work for their Graphql, Web app and react native app. <Link textAlign='right' href={'https://www.tv4.se/'} isExternal>tv4.se</Link>
+                          TV4 is a swedish news site. I&apos;m primarily helping with infrastructure stability and code quality work for their Graphql, web(React & Next) and mobile app(React native). <Link textAlign='right' href={'https://www.tv4.se/'} isExternal>tv4.se</Link>
                       </Text>
                   </ExpandableBox>
               </Box>
