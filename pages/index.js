@@ -284,7 +284,7 @@ export default function Home() {
             <Text textAlign="left">
               A react native app where users can answer polls and get unique
               distictions and insights. <br></br>
-              <Link href="https://reactuly.com" target="_blank">
+              <Link href="https://mento.social" target="_blank">
                 www.reactuly.com
               </Link>
             </Text>
@@ -316,15 +316,6 @@ export default function Home() {
             Expertise
           </Heading>
           <SimpleGrid columns={2} spacing={4}>
-            <Box
-              borderRadius="lg"
-              p={3}
-              textAlign="center"
-              bg={useColorModeValue("blackAlpha.50", "whiteAlpha.200")}
-              css={{ backdropFilter: "blur(10px)" }}
-            >
-              Prisma
-            </Box>
             <Box
               borderRadius="lg"
               p={3}
@@ -369,6 +360,24 @@ export default function Home() {
               css={{ backdropFilter: "blur(10px)" }}
             >
               Chakra UI
+            </Box>
+            <Box
+              borderRadius="lg"
+              p={3}
+              textAlign="center"
+              bg={useColorModeValue("blackAlpha.50", "whiteAlpha.200")}
+              css={{ backdropFilter: "blur(10px)" }}
+            >
+              Prisma
+            </Box>
+            <Box
+              borderRadius="lg"
+              p={3}
+              textAlign="center"
+              bg={useColorModeValue("blackAlpha.50", "whiteAlpha.200")}
+              css={{ backdropFilter: "blur(10px)" }}
+            >
+              UX & Design
             </Box>
             <Box
               borderRadius="lg"
