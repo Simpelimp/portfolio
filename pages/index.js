@@ -259,15 +259,12 @@ export default function Home() {
               your startup idea. Simply enter a vague description of what you
               want to do, and the app will generate your elevator pitch, target
               audience, go to market strategy and SEO tips. <br></br>
-              <Link href="https://startupgenerator.io" target="_blank">
-                www.startupgenerator.io
-              </Link>
             </Text>
           </ExpandableBox>
           <ExpandableBox
             title={
               <Text as="b">
-                Reactuly -{" "}
+                Mento.social -{" "}
                 <Tag
                   size={"md"}
                   variant="subtle"
@@ -282,10 +279,10 @@ export default function Home() {
               Solo project
             </Text>
             <Text textAlign="left">
-              A react native app where users can answer polls and get unique
-              distictions and insights. <br></br>
-              <Link href="https://mento.social" target="_blank">
-                www.reactuly.com
+              A plugin for your website where your customers can answer related
+              questions and view insights.<br></br>
+              <Link href="https://www.mento.social/companies" target="_blank">
+                mento.social
               </Link>
             </Text>
           </ExpandableBox>
